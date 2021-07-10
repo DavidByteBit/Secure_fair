@@ -32,8 +32,8 @@ with open(l_path, 'r') as f:
     for line in f:
         labels.append(line.replace('\n', ''))
 
-P0 = "~/Desktop/spdz/Player-Data/Input-P0-0"
-P1 = "~/Desktop/spdz/Player-Data/Input-P1-0"
+P0 = "/~/Desktop/spdz/Player-Data/Input-P0-0"
+P1 = "/~/Desktop/spdz/Player-Data/Input-P1-0"
 
 with open(P0, 'w') as f:
     f.write(" ".join(model_params))
