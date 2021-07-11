@@ -113,6 +113,6 @@ print("howdy!")
 print_ln("howdy!")
 
 print(str(TP.reveal()))
-print_ln(str(TP.reveal())
+print_ln(str(TP.reveal()))
 
 
