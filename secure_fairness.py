@@ -112,7 +112,7 @@ for i in range(row_length):
 print("howdy!")
 print_ln("howdy!")
 
-print(str(TP.reveal()))
+print(str(TP.reveal_list()()))
 print_ln(str(TP.reveal_list()))
 
 
