@@ -111,7 +111,7 @@ for i in range(row_length):
 
 k = sint(5) # yes?
 
-print_ln(k.reveal())
+print_ln(str(k.reveal()))
 
 print("howdy!")
 print_ln("howdy!")
