@@ -109,6 +109,10 @@ for i in range(row_length):
     FN += x * w
     TP += x * y
 
+print("howdy!")
+print_ln("howdy!")
 
+print(TP.reveal())
+print_ln(TP.reveal())
 
 
