@@ -3,6 +3,9 @@ from Compiler import ml
 import sys
 
 
+# PUBLIC PARAMS
+num_of_params = 62
+row_length = 1000
 ALICE = 0
 BOB = 1
 
@@ -79,9 +82,6 @@ def infer_data(model, data, param_size, row_length):
 # num_of_params = int(args[0])
 # row_length = int(args[1])
 
-num_of_params = 62
-row_length = 1000
-
 model = load_model(num_of_params)
 
 data = load_data(num_of_params, row_length)
@@ -109,10 +109,12 @@ for i in range(row_length):
     FN += x * w
     TP += x * y
 
-print_ln("TP: %s", TP.reveal())
-print_ln("FP: %s", FP.reveal())
-print_ln("TN: %s", TN.reveal())
-print_ln("FN: %s", FN.reveal())
+print_ln_to(BOB, 'TP for%s:%s', "Bob", TP.reveal_to(BOB))
+print_ln_to(BOB, 'FP for%s:%s', "Bob", FP.reveal_to(BOB))
+print_ln_to(BOB, 'FN for%s:%s', "Bob", FN.reveal_to(BOB))
+print_ln_to(BOB, 'TN for%s:%s', "Bob", TN.reveal_to(BOB))
+
+
 
 
 
