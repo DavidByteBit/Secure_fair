@@ -4,7 +4,7 @@ import sys
 
 
 # PUBLIC PARAMS
-num_of_params = 62
+num_of_params = 49
 row_length = 1000
 ALICE = 0
 BOB = 1

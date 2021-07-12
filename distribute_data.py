@@ -5,12 +5,10 @@ import sys
 
 args = sys.argv[1:]
 
-# TODO: Make dynamic
-row_length = 1000
-
 m_path = args[0]
 d_path = args[1]
 l_path = args[2]
+row_length = args[3]
 
 model_params = []
 data = [[] for i in range(row_length)]
