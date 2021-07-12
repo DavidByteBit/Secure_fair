@@ -111,12 +111,13 @@ for i in range(row_length):
 
 k = sint(5) # yes?
 
-print_ln(str(k.reveal()))
+print("k = %s", k.reveal())
+print_ln("k = %s", k.reveal())
 
 print("howdy!")
 print_ln("howdy!")
 
-print(str(TP.reveal()))
-print_ln(str(TP.reveal()))
+print("%s", TP.reveal())
+print_ln("%s", TP.reveal())
 
 
