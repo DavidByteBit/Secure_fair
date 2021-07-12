@@ -101,23 +101,18 @@ for i in range(row_length):
 
     x = (a == 1)
     y = (b == 1)
-    z = 1 - a
-    w = 1 - b
+    z = 1 - x
+    w = 1 - y
 
     TN += z * w
     FP += z * b
     FN += x * w
     TP += x * y
 
-k = sint(5) # yes?
-
-print("k = %s", k.reveal())
-print_ln("k = %s", k.reveal())
-
-print("howdy!")
-print_ln("howdy!")
-
-print("%s", TP.reveal())
 print_ln("%s", TP.reveal())
+print_ln("%s", FP.reveal())
+print_ln("%s", TN.reveal())
+print_ln("%s", FN.reveal())
+
 
 
