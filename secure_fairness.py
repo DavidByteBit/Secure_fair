@@ -109,6 +109,7 @@ for i in range(row_length):
     FN += x * w
     TP += x * y
 
+# Not working yet
 print_ln_to(BOB, 'TP for%s:%s', "Bob", TP.reveal_to(BOB))
 print_ln_to(BOB, 'FP for%s:%s', "Bob", FP.reveal_to(BOB))
 print_ln_to(BOB, 'FN for%s:%s', "Bob", FN.reveal_to(BOB))
