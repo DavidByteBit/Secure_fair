@@ -110,6 +110,12 @@ for i in range(row_length):
     TP += x * y
 
 # Not working yet
+print_ln('TP for%s:%s', "Bob", TP.reveal())
+print_ln('FP for%s:%s', "Bob", FP.reveal())
+print_ln('FN for%s:%s', "Bob", FN.reveal())
+print_ln('TN for%s:%s', "Bob", TN.reveal())
+
+# Not working yet
 print_ln_to(BOB, 'TP for%s:%s', "Bob", TP.reveal_to(BOB))
 print_ln_to(BOB, 'FP for%s:%s', "Bob", FP.reveal_to(BOB))
 print_ln_to(BOB, 'FN for%s:%s', "Bob", FN.reveal_to(BOB))
