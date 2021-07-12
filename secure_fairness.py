@@ -109,10 +109,10 @@ for i in range(row_length):
     FN += x * w
     TP += x * y
 
-print_ln("%s", TP.reveal())
-print_ln("%s", FP.reveal())
-print_ln("%s", TN.reveal())
-print_ln("%s", FN.reveal())
+print_ln("TP: %s", TP.reveal())
+print_ln("FP: %s", FP.reveal())
+print_ln("TN: %s", TN.reveal())
+print_ln("FN: %s", FN.reveal())
 
 
 
